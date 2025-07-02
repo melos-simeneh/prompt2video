@@ -39,9 +39,31 @@ Run the notebook `prompt2video.ipynb` in [Google Colab](https://colab.research.g
 ## 📦 Usage
 
 1. Upload your sketch image when prompted.
-2. Enter a base prompt (e.g., `"anime style boy, vibrant colors, highly detailed"`).
+2. Enter a base prompt (e.g., `"anime style boy"`).
 3. The script generates a video transitioning the sketch from a sunny to rainy forest environment.
 4. The video is saved, downloaded, and displayed inline.
+
+## 🖼️ Sample Input & 🎬 Output
+
+Here's an example of what the pipeline can do using a simple sketch and a base prompt:
+
+### ✏️ Input
+
+**Sketch:**
+
+![Input Sketch](screenshots/input.jpg)
+
+**Base Prompt:** "anime style boy"
+
+**Scene Transition:** From sunny forest to rainy forest
+
+### 🎬 Output
+
+The generated video smoothly animates the sketched character through the environmental transition, maintaining visual identity and style:
+
+![Output Video](videos/output.gif)
+
+🔁 The character's appearance remains consistent, while the background and lighting change dynamically over time.
 
 ## 📌 Customization
 
